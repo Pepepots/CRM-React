@@ -1,0 +1,16 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nombre": "Pepepots"
+    },
+    {
+      "nombre": "Jose",
+      "empresa": "Pepepots",
+      "email": "correo@correo.com",
+      "telefono": 5577387400,
+      "notas": "Si hay ",
+      "id": 2
+    }
+  ]
+}

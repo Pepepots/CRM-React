@@ -1,15 +1,19 @@
 {
   "clientes": [
     {
-      "id": 1,
-      "nombre": "Pepepots"
+      "nombre": "Pepepots",
+      "empresa": "NovelFractal",
+      "email": "luizg9414@gmail.com",
+      "telefono": 5577387400,
+      "notas": "Si hay y muchas ",
+      "id": 1
     },
     {
-      "nombre": "Jose",
+      "nombre": "Jose ",
       "empresa": "Pepepots",
       "email": "correo@correo.com",
-      "telefono": 5577387400,
-      "notas": "Si hay ",
+      "telefono": 558741474,
+      "notas": "Si hay muchas notas ",
       "id": 2
     }
   ]

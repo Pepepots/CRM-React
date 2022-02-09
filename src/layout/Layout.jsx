@@ -5,10 +5,6 @@ export const Layout = () => {
 
     const location = useLocation()
     const urlActual = location.pathname
-    useEffect(() => {
-      console.log(location)
-    }, [location])
-    
 
     return (
         <div className="md:flex md:min-h-screen ">

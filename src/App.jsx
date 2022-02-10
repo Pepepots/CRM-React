@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { Layout } from "./layout/Layout";
 import { EditarCliente } from "./pages/EditarCliente";
@@ -7,8 +6,6 @@ import { NuevoCliente } from "./pages/NuevoCliente";
 import { VerCliente } from "./pages/VerCliente";
 
 export const App = () => {
-  console.log(import.meta.env.VITE_SOME_KEY);
-
   return (
     <BrowserRouter>
       <Routes>

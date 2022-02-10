@@ -12,7 +12,7 @@ export const VerCliente = () => {
         setCargando(!cargando);
         const consultarCliente = async () => {
             try {
-                const url = `http://192.168.100.231:4000/clientes/${id}`;
+                const url = `${import.meta.env.VITE_API_URL}/${id}`;
 
                 const respuesta = await fetch(url);
 
